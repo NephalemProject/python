@@ -16,3 +16,7 @@ This project was intended to test machine learning on the recently released mobi
 - Fully random agent is RandomAgent.py, i.e. chooses random actions.
 - Trained Agent is TrainedAgent.py
 - You will have to load in the pkl created from training.
+
+## Early Showcase
+Here is a very early demo of the model after approximately 3 games of training:
+https://youtu.be/9ngkaWZ5yWg
