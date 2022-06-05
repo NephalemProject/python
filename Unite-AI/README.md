@@ -1,10 +1,7 @@
-<a href="https://youtu.be/GS_0ZKzrvk0" target="_blank"><img src="https://i.imgur.com/sG7xxyc.png" title="Clarity Coders YouTube" /></a>
-# Python / FastAI CNN - Playing Fall Guys
-> This code was used to gather and process data while playing the game Fall Guys.
-> The network was then trained using the FastAI Libary. 
+## About
+This project was intended to test machine learning on the recently released mobile MOBA game Pokemon Unite by recording a human playing and then attempting to learn when to perform what action.
 
 ## Setup
-- I used dual monitors with a game playing at a 800 X 600 resolution on one screen.
 - You can start data collection by running CreateData.py
 - Pressing B will start the screen / key grab. These will be stored in lists until the episode is done.
 - Once the episode ( Round ) ends pressing h will stop the screen / key grab process and all data will be moved to a numpy array.
@@ -13,17 +10,9 @@
 ## Train
 - Use the file called training.py
 - Point it at your image directory
+- I trained my AI using Google Colab
 
 ## Run Agents
-- Fully random agent is RandomAgent.py
+- Fully random agent is RandomAgent.py, i.e. chooses random actions.
 - Trained Agent is TrainedAgent.py
 - You will have to load in the pkl created from training.
-
-## Inputs (Observations)
-- Uses inputs to the nural network (Observations) of pixes in the game.
-- 224 X 224
-- Line detection
-
-## Contact!
-- YouTube <a href="https://www.youtube.com/claritycoders" target="_blank">Clarity Coders</a>
-- Chat with me! <a href="https://discord.gg/cAWW5qq" target="_blank">Discord</a>
