@@ -3,7 +3,7 @@ import datetime
 import time
 import pandas
 
-capture = cv.VideoCapture("http://192.168.0.110:8000/video")
+capture = cv.VideoCapture(0)
 face_cas = cv.CascadeClassifier(cv.data.haarcascades + "haarcascade_frontalface_default.xml")
 body_cas = cv.CascadeClassifier(cv.data.haarcascades + "haarcascade_fullbody.xml")
 
